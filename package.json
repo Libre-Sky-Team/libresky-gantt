@@ -1,5 +1,5 @@
 {
-  "name": "react-gantt-timeline",
+  "name": "libresky-gantt",
   "version": "0.4.0",
   "description": "",
   "main": "dist/index.js",
@@ -65,7 +65,7 @@
     "calendar",
     "project management"
   ],
-  "homepage": "https://github.com/guiqui/react-timeline-gantt",
+  "homepage": "https://github.com/Libre-Sky-Team/libresky-gantt",
   "dependencies": {
     "moment": "^2.24.0",
     "opencollective": "^1.0.3",
