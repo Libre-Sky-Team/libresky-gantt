@@ -279,9 +279,9 @@ class TimeLine extends Component {
   //   ITEMS EVENTS  //
   /////////////////////
 
-  onSelectItem = item => {
+  onSelectItem = (e,item) => {
     if (this.props.onSelectItem && item != this.props.selectedItem)
-      this.props.onSelectItem(item);
+      this.props.onSelectItem(e,item);
   };
 
   onStartCreateLink = (task, position) => {

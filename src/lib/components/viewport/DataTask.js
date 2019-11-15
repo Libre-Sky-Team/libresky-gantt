@@ -143,7 +143,7 @@ export default class DataTask extends Component{
         <div 
             onMouseDown={(e)=>this.doMouseDown(e,MODE_MOVE)}
             onTouchStart={(e)=>this.doTouchStart(e,MODE_MOVE)}
-            onClick={(e)=>{this.props.onSelectItem(this.props.item)}}
+            onClick={(e)=>{this.props.onSelectItem(e,this.props.item)}}
             style={style}>
             <div
                 className="timeLine-main-data-task-side" 
