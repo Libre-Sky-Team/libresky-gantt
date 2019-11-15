@@ -278,7 +278,6 @@ class TimeLine extends Component {
   /////////////////////
   //   ITEMS EVENTS  //
   /////////////////////
-
   onSelectItem = (e,item) => {
     if (this.props.onSelectItem && item != this.props.selectedItem)
       this.props.onSelectItem(e,item);
